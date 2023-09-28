@@ -24,9 +24,9 @@ public class BankTest {
         System.out.println("Total money: " + BankAccount.getTotalMoney());
 
 		// Display account information
-        System.out.println("Account 1 - Balance: " + account1.getBalance());
-        System.out.println("Account 2 - Balance: " + account2.getBalance());
-        System.out.println("Account 3 - Balance: " + account3.getBalance());
+        System.out.println("Account 1 - Balance: $" + account1.getBalance());
+        System.out.println("Account 2 - Balance: $" + account2.getBalance());
+        System.out.println("Account 3 - Balance: $" + account3.getBalance());
 
     }
 }
